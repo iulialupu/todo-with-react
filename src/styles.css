@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  bottom: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #ececec;
+}
+button {
+  outline: none;
+}
+
+.wrapper {
+  width: 282px;
+  margin: 10px auto;
+  border: 0.5px solid rgb(192, 192, 192);
+  box-sizing: border-box;
+  background-color: rgb(253, 253, 253);
+  padding-bottom: 30px;
+}
+.app-header {
+  background-color: #282c34;
+  min-height: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Filters */
+.filters {
+  font-size: 12px;
+  border-bottom: 0.5px solid rgb(192, 192, 192);
+  margin: 0 22px 0;
+  box-sizing: border-box;
+}
+.filters .btn {
+  background-color: rgb(253, 253, 253);
+  border: none;
+  color: rgb(124, 124, 124);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.filters .btn:hover,
+.filters .btn.active {
+  color: rgb(21, 20, 24);
+  border-bottom: 0.5px solid rgb(21, 20, 24);
+}
+
+/* To Do List */
+.todo-list {
+  padding: 28px 22px 30px;
+}
+.todo-item {
+  line-height: 1.5;
+}
+.check-box {
+  margin-right: 10px;
+}
+.check-box:checked + span {
+  text-decoration: line-through;
+}
+
+/* Form */
+form {
+  padding: 20px;
+  width: 250px;
+  margin: auto;
+  display: block;
+}
+form button {
+  background-color: #4c5058;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+}
+form input {
+  padding: 6px 9px;
+}
